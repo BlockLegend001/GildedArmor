@@ -1,0 +1,10 @@
+// 1.20.6	2024-09-02T14:17:54.4294171	Gilded Armor/Tags for minecraft:item
+5b3373156c08dba6f4b38b32f25d61d35bb5be43 data\minecraft\tags\items\enchantable\durability.json
+5b3373156c08dba6f4b38b32f25d61d35bb5be43 data\minecraft\tags\items\trimmable_armor.json
+827d5c2244a07407afca3c71afe3678cfc0e9a22 data\minecraft\tags\items\enchantable\leg_armor.json
+011042cdecd86b724d9969a0b97f2db4392c36ed data\minecraft\tags\items\enchantable\chest_armor.json
+1545203255207435fcd8db3becfaec1c8526f580 data\minecraft\tags\items\enchantable\foot_armor.json
+5b3373156c08dba6f4b38b32f25d61d35bb5be43 data\minecraft\tags\items\enchantable\equippable.json
+5b3373156c08dba6f4b38b32f25d61d35bb5be43 data\minecraft\tags\items\enchantable\armor.json
+5b3373156c08dba6f4b38b32f25d61d35bb5be43 data\gildedarmor\tags\items\gilded_netherite.json
+e03a3b6946fde8236d6b1203fa0b201793b3e83e data\minecraft\tags\items\enchantable\head_armor.json
