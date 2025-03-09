@@ -1,0 +1,1 @@
+- Fixed a bug where the armor cannot be enchanted

@@ -1,0 +1,74 @@
+[02set2024 21:50:28.924] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 16, --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, gildedarmor, --all, --output, D:\Programmazione\Mod\Gilded Armor\FORGE\1.20.6\src\generated\resources, --existing, D:\Programmazione\Mod\Gilded Armor\FORGE\1.20.6\src\main\resources]
+[02set2024 21:50:28.928] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[02set2024 21:50:28.930] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[02set2024 21:50:29.047] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[02set2024 21:50:29.167] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/rosar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
+[02set2024 21:50:30.463] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[02set2024 21:50:31.234] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --assetIndex, 16, --mod, gildedarmor, --all, --output, D:\Programmazione\Mod\Gilded Armor\FORGE\1.20.6\src\generated\resources, --existing, D:\Programmazione\Mod\Gilded Armor\FORGE\1.20.6\src\main\resources]
+[02set2024 21:50:33.261] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod /coremods/field_to_method.js function biome
+java.lang.IllegalStateException: Unable to find method ()Lnet/minecraft/world/level/biome/Biome$ClimateSettings;
+	at SECURE-BOOTSTRAP/coremods@5.1.6/net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:288) ~[coremods-5.1.6.jar:?]
+	at org.openjdk.nashorn.scripts/org.openjdk.nashorn.internal.scripts.Script$Recompilation$13$291A$\^eval\_.initializeCoreMod#transformer(<eval>:11) ~[?:?]
+	at SECURE-BOOTSTRAP/org.openjdk.nashorn/org.openjdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:648) ~[nashorn-core-15.4.jar:?]
+	at SECURE-BOOTSTRAP/org.openjdk.nashorn/org.openjdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:513) ~[nashorn-core-15.4.jar:?]
+	at SECURE-BOOTSTRAP/org.openjdk.nashorn/org.openjdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:520) ~[nashorn-core-15.4.jar:?]
+	at SECURE-BOOTSTRAP/org.openjdk.nashorn/org.openjdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:111) ~[nashorn-core-15.4.jar:?]
+	at SECURE-BOOTSTRAP/coremods@5.1.6/net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:22) ~[coremods-5.1.6.jar:5.1.6]
+	at SECURE-BOOTSTRAP/coremods@5.1.6/net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:22) ~[coremods-5.1.6.jar:?]
+	at SECURE-BOOTSTRAP/coremods@5.1.6/net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:14) ~[coremods-5.1.6.jar:?]
+	at SECURE-BOOTSTRAP/coremods@5.1.6/net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:42) ~[coremods-5.1.6.jar:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:28) ~[modlauncher-10.2.1.jar:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:166) ~[modlauncher-10.2.1.jar:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:104) ~[modlauncher-10.2.1.jar:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:44) ~[modlauncher-10.2.1.jar:?]
+	at cpw.mods.securejarhandler/net.minecraftforge.securemodules.SecureModuleClassLoader.readerToClass(SecureModuleClassLoader.java:480) ~[securemodules-2.2.19.jar:2.2.19]
+	at cpw.mods.securejarhandler/net.minecraftforge.securemodules.SecureModuleClassLoader.findClass(SecureModuleClassLoader.java:406) ~[securemodules-2.2.19.jar:2.2.19]
+	at cpw.mods.securejarhandler/net.minecraftforge.securemodules.SecureModuleClassLoader.loadClass(SecureModuleClassLoader.java:422) ~[securemodules-2.2.19.jar:2.2.19]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.base/java.lang.System$2.defineClass(System.java:2394) ~[?:?]
+	at java.base/java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2505) ~[?:?]
+	at java.base/java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:361) ~[?:?]
+	at java.base/java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:286) ~[?:?]
+	at java.base/java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:221) ~[?:?]
+	at java.base/java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.base/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.base/java.lang.invoke.CallSite.makeSite(CallSite.java:316) ~[?:?]
+	at java.base/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274) ~[?:?]
+	at java.base/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264) ~[?:?]
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.world.level.biome.Biome$Precipitation.<clinit>(Biome.java:361) ~[forge-1.20.6-50.0.13_mapped_official_1.20.6.jar:?]
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.world.level.block.LayeredCauldronBlock.lambda$static$2(LayeredCauldronBlock.java:20) ~[forge-1.20.6-50.0.13_mapped_official_1.20.6.jar:?]
+	at SECURE-BOOTSTRAP/datafixerupper@7.0.14/com.mojang.serialization.codecs.RecordCodecBuilder.mapCodec(RecordCodecBuilder.java:76) ~[datafixerupper-7.0.14.jar:?]
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.world.level.block.LayeredCauldronBlock.<clinit>(LayeredCauldronBlock.java:20) ~[forge-1.20.6-50.0.13_mapped_official_1.20.6.jar:?]
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.world.level.block.Blocks.<clinit>(Blocks.java:2858) ~[forge-1.20.6-50.0.13_mapped_official_1.20.6.jar:?]
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.world.level.block.FireBlock.bootStrap(FireBlock.java:339) ~[forge-1.20.6-50.0.13_mapped_official_1.20.6.jar:?]
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:46) ~[forge-1.20.6-50.0.13_mapped_official_1.20.6.jar:?]
+	at TRANSFORMER/forge@50.0.13/net.minecraftforge.data.loading.DatagenModLoader.begin(DatagenModLoader.java:45) ~[forge-1.20.6-50.0.13_mapped_official_1.20.6.jar:?]
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.data.Main.main(Main.java:110) ~[forge-1.20.6-50.0.13_mapped_official_1.20.6.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.6-50.0.13/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91) ~[fmlloader-1.20.6-50.0.13.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.6-50.0.13/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75) ~[fmlloader-1.20.6-50.0.13.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.1.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.1/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.1.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.1.jar:2.1.1]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.1.jar:2.1.1]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.1.jar:2.1.1]
+[02set2024 21:50:36.954] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 50.0.13, for MC 1.20.6 with MCP 20240429.135109
+[02set2024 21:50:36.958] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v50.0.13 Initialized
+[02set2024 21:50:36.987] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[02set2024 21:50:37.654] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [gildedarmor]
+[02set2024 21:50:37.718] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.0.13_mapped_official_1.20.6/forge-1.20.6-50.0.13_mapped_official_1.20.6.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[02set2024 21:50:37.719] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.0.13_mapped_official_1.20.6/forge-1.20.6-50.0.13_mapped_official_1.20.6.jar%230!/data/.mcassetsroot' uses unexpected schema
+[02set2024 21:50:37.845] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id gildedarmor
+[02set2024 21:50:38.054] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id gildedarmor finished after 208 ms
+[02set2024 21:50:38.054] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id gildedarmor
+[02set2024 21:50:38.074] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id gildedarmor finished after 18 ms
+[02set2024 21:50:38.074] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 228 ms
+[02set2024 21:50:38.078] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 9, old count: 8, new count: 10, removed stale: 0, written: 1
