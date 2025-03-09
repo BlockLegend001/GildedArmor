@@ -1,0 +1,12 @@
+package com.blocklegend001.gildedarmor.util;
+
+import net.minecraft.item.equipment.EquipmentAsset;
+import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.util.Identifier;
+
+public class ModEquipmentAssets {
+    private static final RegistryKey<? extends Registry<EquipmentAsset>> ROOT_ID = RegistryKey.ofRegistry(Identifier.of("equipment_asset"));
+
+    public static final RegistryKey<EquipmentAsset> GILDED_NETHERITE
+}

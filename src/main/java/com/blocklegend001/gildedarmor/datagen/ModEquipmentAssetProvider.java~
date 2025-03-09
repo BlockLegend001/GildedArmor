@@ -1,0 +1,39 @@
+package com.blocklegend001.gildedarmor.datagen;
+
+import com.blocklegend001.gildedarmor.util.ModEquipmentAssets;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+import net.minecraft.client.data.EquipmentAssetProvider;
+import net.minecraft.client.render.entity.equipment.EquipmentModel;
+import net.minecraft.data.DataOutput;
+import net.minecraft.data.DataProvider;
+import net.minecraft.data.DataWriter;
+import net.minecraft.item.equipment.EquipmentAsset;
+import net.minecraft.registry.RegistryKey;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.CompletableFuture;
+import java.util.function.BiConsumer;
+
+@Environment(EnvType.CLIENT)
+public class ModEquipmentAssetProvider extends EquipmentAssetProvider {
+
+    public ModEquipmentAssetProvider(DataOutput output) {
+        super(output);
+    }
+    
+    @Override
+    public CompletableFuture<?> run(DataWriter writer) {
+        Map<RegistryKey<EquipmentAsset>, EquipmentModel> equipmentMap = new HashMap<>();
+
+        // Usa la logica bootstrap per popolare gli asset
+        ModEquipmentAssets.bootstrap((key, model) -> {
+            if (equipmentMap.putIfAbsent(key, model) != null) {
+                throw new IllegalStateException("Tried to register equipment asset twice for id: " + key);
+            }
+        });
+
+        return DataProvider.writeAllToPath(writer, EquipmentModel.CODEC, pathResolver::resolveJson, equipmentMap);
+    }
+}
