@@ -1,0 +1,1 @@
+- Fixed a bug where armor doesn't have durability
