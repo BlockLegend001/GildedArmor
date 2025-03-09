@@ -1,0 +1,120 @@
+[13:01:03] [main/INFO]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.38-beta, --assetIndex, asset-index, --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 6.0.4, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.38-beta, --fml.neoFormVersion, 20241203.161809]
+[13:01:03] [main/INFO]: JVM identified as Azul Systems, Inc. OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[13:01:03] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Azul Systems, Inc.; OS Windows 11 arch amd64 version 10.0
+[13:01:04] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[13:01:04] [main/INFO]: Trying GL version 4.6
+[13:01:04] [main/INFO]: Requested GL version 4.6 got version 4.6
+[13:01:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
+[13:01:04] [main/INFO]: Found mod file "neoforge-21.4.38-beta.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Gilded Armor\NEOFORGE\1.12.4\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.4.38-beta\neoforge-21.4.38-beta.jar])]
+[13:01:04] [pool-2-thread-1/INFO]: GL info: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.14, NVIDIA Corporation
+[13:01:04] [main/INFO]: Found mod file "neoforge-21.4.38-beta.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Gilded Armor\NEOFORGE\1.12.4\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.4.38-beta\neoforge-21.4.38-beta.jar])]
+[13:01:04] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[13:01:04] [main/INFO]: Found mod file "neoforge-21.4.38-beta.jar" [locator: userdev mods and services, reader: mod manifest]
+[13:01:04] [main/INFO]: Found mod file "RoughlyEnoughItems-neoforge-18.0.796.jar" [locator: userdev mods and services, reader: mod manifest]
+[13:01:04] [main/INFO]: Found mod file "cloth-config-neoforge-17.0.144-neoforge.jar" [locator: userdev mods and services, reader: mod manifest]
+[13:01:04] [main/INFO]: Found mod file "architectury-neoforge-15.0.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[13:01:05] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[13:01:05] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
+[13:01:05] [main/INFO]: Found 1 dependencies adding them to mods collection
+[13:01:05] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.4.38-beta.jar" [parent: neoforge-21.4.38-beta.jar, locator: jarinjar, reader: mod manifest]
+[13:01:05] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 15.0.1 (architectury)
+		Cloth Config v17 API 17.0.144 (cloth_config)
+		GildedArmor 1.21.4-0.2 (gildedarmor)
+		Minecraft 1.21.4 (minecraft)
+		NeoForge 21.4.38-beta (neoforge)
+		Roughly Enough Items (REI) 18.0.796 (roughlyenoughitems)
+[13:01:05] [main/INFO]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.38-beta, --gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --assetIndex, asset-index]
+[03gen2025 13:01:07.751] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 540 milliseconds
+[03gen2025 13:01:07.794] [pool-9-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[03gen2025 13:01:13.556] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03gen2025 13:01:13.559] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03gen2025 13:01:13.565] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03gen2025 13:01:13.566] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03gen2025 13:01:13.567] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03gen2025 13:01:13.725] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Gilded%20Armor/NEOFORGE/1.12.4/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.4.38-beta/neoforge-21.4.38-beta.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[03gen2025 13:01:13.725] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Gilded%20Armor/NEOFORGE/1.12.4/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.4.38-beta/neoforge-21.4.38-beta.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[03gen2025 13:01:13.750] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03gen2025 13:01:13.760] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[03gen2025 13:01:13.881] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[03gen2025 13:01:14.167] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.38-beta, for MC 1.21.4
+[03gen2025 13:01:14.351] [modloading-worker-0/INFO] [REI/]: [REI] Config loaded
+[03gen2025 13:01:14.417] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REICommonPlugin
+[03gen2025 13:01:14.419] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[03gen2025 13:01:14.454] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultClientPluginImpl [roughlyenoughitems] for REIClientPlugin
+[03gen2025 13:01:14.466] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[03gen2025 13:01:14.470] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[03gen2025 13:01:15.310] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[03gen2025 13:01:15.460] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/roughlyenoughitems, mod/cloth_config, mod/gildedarmor, mod/architectury, mod/neoforge
+[03gen2025 13:01:15.577] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
+[03gen2025 13:01:15.983] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
+[03gen2025 13:01:17.415] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altoparlanti (HyperX Cloud II Wireless)
+[03gen2025 13:01:17.417] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[03gen2025 13:01:17.556] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[03gen2025 13:01:17.565] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[03gen2025 13:01:17.565] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[03gen2025 13:01:17.566] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[03gen2025 13:01:17.567] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[03gen2025 13:01:17.570] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[03gen2025 13:01:17.571] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[03gen2025 13:01:17.571] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[03gen2025 13:01:17.572] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[03gen2025 13:01:17.574] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[03gen2025 13:01:17.761] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[03gen2025 13:01:17.762] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[03gen2025 13:01:17.762] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[03gen2025 13:01:17.764] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[03gen2025 13:01:17.769] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[03gen2025 13:01:23.796] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1374 recipes
+[03gen2025 13:01:23.810] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1481 advancements
+[03gen2025 13:01:23.996] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.4
+[03gen2025 13:01:23.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03gen2025 13:01:24.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03gen2025 13:01:26.062] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03gen2025 13:01:26.062] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03gen2025 13:01:26.062] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03gen2025 13:01:26.062] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03gen2025 13:01:26.170] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[03gen2025 13:01:26.171] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1738 ms
+[03gen2025 13:01:26.254] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[03gen2025 13:01:26.254] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[03gen2025 13:01:27.215] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:f0f3369d] logged in with entity id 39 at (27.734660465609924, 117.11650136792812, -19.764127988691456)
+[03gen2025 13:01:27.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[03gen2025 13:01:28.808] [Render thread/WARN] [REI/]: [REI] Found 1 existing reload task(s) after trying to terminate them!
+[03gen2025 13:01:28.834] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 24 advancements
+[03gen2025 13:01:28.843] [REI-ReloadPlugins/INFO] [REI/]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[03gen2025 13:01:28.843] [REI-ReloadPlugins/INFO] [REI/]: [REI] REICommonPlugin starting main-reload for START.
+[03gen2025 13:01:28.844] [REI-ReloadPlugins/INFO] [REI/]: [REI] Plugins (2):
+[03gen2025 13:01:28.844] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (-100,00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[03gen2025 13:01:28.844] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[03gen2025 13:01:28.844] [REI-ReloadPlugins/INFO] [REI/]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[03gen2025 13:01:28.963] [REI-ReloadPlugins/INFO] [REI/]: [REI] ########################################
+[03gen2025 13:01:28.963] [REI-ReloadPlugins/INFO] [REI/]: [REI] REIClientPlugin starting main-reload for START.
+[03gen2025 13:01:28.965] [REI-ReloadPlugins/INFO] [REI/]: [REI] Plugins (3):
+[03gen2025 13:01:28.965] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (-100,00) DefaultClientPluginImpl of DefaultClientPluginImpl [roughlyenoughitems]
+[03gen2025 13:01:28.965] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[03gen2025 13:01:28.965] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[03gen2025 13:01:28.965] [REI-ReloadPlugins/INFO] [REI/]: [REI] ########################################
+[03gen2025 13:01:29.551] [REI-ReloadPlugins/INFO] [REI/]: [REI] REICommonPlugin finished post-reload for START in 26.68 ms, totaling 168.7 ms.
+[03gen2025 13:01:29.554] [REI-ReloadPlugins/INFO] [REI/]: [REI] REIClientPlugin finished post-reload for START in 1.822 ms, totaling 563.5 ms.
+[03gen2025 13:01:29.561] [REI-ReloadPlugins/INFO] [REI/]: [REI] ########################################
+[03gen2025 13:01:29.561] [REI-ReloadPlugins/INFO] [REI/]: [REI] REICommonPlugin starting main-reload for END.
+[03gen2025 13:01:29.561] [REI-ReloadPlugins/INFO] [REI/]: [REI] Plugins (2):
+[03gen2025 13:01:29.562] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (-100,00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[03gen2025 13:01:29.562] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[03gen2025 13:01:29.562] [REI-ReloadPlugins/INFO] [REI/]: [REI] ########################################
+[03gen2025 13:01:29.655] [REI-ReloadPlugins/INFO] [REI/]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[03gen2025 13:01:29.655] [REI-ReloadPlugins/INFO] [REI/]: [REI] REIClientPlugin starting main-reload for END.
+[03gen2025 13:01:29.656] [REI-ReloadPlugins/INFO] [REI/]: [REI] Plugins (3):
+[03gen2025 13:01:29.656] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (-100,00) DefaultClientPluginImpl of DefaultClientPluginImpl [roughlyenoughitems]
+[03gen2025 13:01:29.656] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[03gen2025 13:01:29.656] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[03gen2025 13:01:29.656] [REI-ReloadPlugins/INFO] [REI/]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[03gen2025 13:01:30.395] [REI-ReloadPlugins/INFO] [REI/]: [REI] REICommonPlugin finished post-reload for END in 1.471 ms, totaling 95.57 ms.
+[03gen2025 13:01:30.401] [REI-ReloadPlugins/INFO] [REI/]: [REI] REIClientPlugin finished post-reload for END in 3.415 ms, totaling 743.5 ms.
+[03gen2025 13:01:32.027] [Render thread/INFO] [REI/]: [REI] [REI Server Display Sync] Received server's request to set 1554 recipes.
+[03gen2025 13:01:32.684] [Render thread/WARN] [REI/]: [REI] Detected runtime DisplayRegistry modification, this can be extremely dangerous!
+[03gen2025 13:01:34.951] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 25 advancements
