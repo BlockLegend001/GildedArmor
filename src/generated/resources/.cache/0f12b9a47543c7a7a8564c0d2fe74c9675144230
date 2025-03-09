@@ -1,0 +1,10 @@
+// 1.21.3	2024-12-05T19:23:59.3195588	Tags for minecraft:item mod id gildedarmor
+3ecdc92624bbddbcecc2a4c094ff1894d59e4ff5 data/gildedarmor/tags/item/gilded_armor.json
+3ecdc92624bbddbcecc2a4c094ff1894d59e4ff5 data/minecraft/tags/item/enchantable/armor.json
+011042cdecd86b724d9969a0b97f2db4392c36ed data/minecraft/tags/item/enchantable/chest_armor.json
+3ecdc92624bbddbcecc2a4c094ff1894d59e4ff5 data/minecraft/tags/item/enchantable/durability.json
+3ecdc92624bbddbcecc2a4c094ff1894d59e4ff5 data/minecraft/tags/item/enchantable/equippable.json
+1545203255207435fcd8db3becfaec1c8526f580 data/minecraft/tags/item/enchantable/foot_armor.json
+e03a3b6946fde8236d6b1203fa0b201793b3e83e data/minecraft/tags/item/enchantable/head_armor.json
+827d5c2244a07407afca3c71afe3678cfc0e9a22 data/minecraft/tags/item/enchantable/leg_armor.json
+3ecdc92624bbddbcecc2a4c094ff1894d59e4ff5 data/minecraft/tags/item/trimmable_armor.json
