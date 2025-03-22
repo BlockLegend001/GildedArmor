@@ -1,5 +1,6 @@
 package com.blocklegend001.gildedarmor;
 
+import com.blocklegend001.gildedarmor.config.ModConfig;
 import com.blocklegend001.gildedarmor.item.ModItemGroup;
 import com.blocklegend001.gildedarmor.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,6 +18,7 @@ public class GildedArmor implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        ModConfig.loadConfig();
         ModItemGroup.registerItemGroup();
         ModItems.registerModItems();
     }

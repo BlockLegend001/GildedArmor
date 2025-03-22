@@ -1,6 +1,7 @@
 package com.blocklegend001.gildedarmor.item;
 
 import com.blocklegend001.gildedarmor.GildedArmor;
+import com.blocklegend001.gildedarmor.config.ModConfig;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
@@ -14,19 +15,23 @@ public class ModItems {
 
     public static final Item GILDED_NETHERITE_HELMET = registerItem("gilded_netherite_helmet",
             new GildedArmorItem(ModArmorMaterial.GILDED_NETHERITE, ArmorItem.Type.HELMET,
-                    new Item.Settings().maxCount(1).fireproof().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(49))));
+                    new Item.Settings().maxCount(1).fireproof()
+                            .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(ModConfig.durabilityValueGildedHelmet))));
 
     public static final Item GILDED_NETHERITE_CHESTPLATE = registerItem("gilded_netherite_chestplate",
             new GildedArmorItem(ModArmorMaterial.GILDED_NETHERITE, ArmorItem.Type.CHESTPLATE,
-                    new Item.Settings().maxCount(1).fireproof().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(45))));
+                    new Item.Settings().maxCount(1).fireproof()
+                            .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(ModConfig.durabilityValueGildedChestplate))));
 
     public static final Item GILDED_NETHERITE_LEGGINGS = registerItem("gilded_netherite_leggings",
             new GildedArmorItem(ModArmorMaterial.GILDED_NETHERITE, ArmorItem.Type.LEGGINGS,
-                    new Item.Settings().maxCount(1).fireproof().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(45))));
+                    new Item.Settings().maxCount(1).fireproof()
+                            .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(ModConfig.durabilityValueGildedLeggings))));
 
     public static final Item GILDED_NETHERITE_BOOTS = registerItem("gilded_netherite_boots",
             new GildedArmorItem(ModArmorMaterial.GILDED_NETHERITE, ArmorItem.Type.BOOTS,
-                    new Item.Settings().maxCount(1).fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(45))));
+                    new Item.Settings().maxCount(1).fireproof()
+                            .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(ModConfig.durabilityValueGildedBoots))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GildedArmor.MOD_ID, name), item);
