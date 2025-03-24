@@ -1,5 +1,10 @@
 package com.blocklegend001.gildedarmor.items;
 
+import java.util.EnumMap;
+import java.util.List;
+import java.util.function.Supplier;
+
+import com.blocklegend001.gildedarmor.config.ModConfig;
 import net.minecraft.Util;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
@@ -12,20 +17,16 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
-import java.util.EnumMap;
-import java.util.List;
-import java.util.function.Supplier;
-
 public class ModArmorMaterials {
     public static final Holder<ArmorMaterial> GILDED_NETHERITE;
 
     static {
         GILDED_NETHERITE= register("gilded_netherite", Util.make(new EnumMap<>(ArmorItem.Type.class), (p_323378_) -> {
-            p_323378_.put(ArmorItem.Type.BOOTS, 6);
-            p_323378_.put(ArmorItem.Type.LEGGINGS, 7);
-            p_323378_.put(ArmorItem.Type.CHESTPLATE, 10);
-            p_323378_.put(ArmorItem.Type.HELMET, 6);
-        }), 20, SoundEvents.ARMOR_EQUIP_NETHERITE, 4.0F, 0.1F, () -> Ingredient.of(Items.NETHERITE_INGOT));
+            p_323378_.put(ArmorItem.Type.BOOTS, ModConfig.protectionValueGildedBoots);
+            p_323378_.put(ArmorItem.Type.LEGGINGS, ModConfig.protectionValueGildedLeggings);
+            p_323378_.put(ArmorItem.Type.CHESTPLATE, ModConfig.protectionValueGildedChestplate);
+            p_323378_.put(ArmorItem.Type.HELMET, ModConfig.protectionValueGildedHelmet);
+        }), ModConfig.enchantmentValueGildedArmor, SoundEvents.ARMOR_EQUIP_NETHERITE, ModConfig.toughnessValueGildedArmor, ModConfig.knockbackResistanceValueGildedArmor, () -> Ingredient.of(Items.NETHERITE_INGOT));
     }
 
     private static Holder<ArmorMaterial> register(String p_323589_, EnumMap<ArmorItem.Type, Integer> p_323819_, int p_323636_, Holder<SoundEvent> p_323958_, float p_323937_, float p_323731_, Supplier<Ingredient> p_323970_) {
@@ -37,6 +38,6 @@ public class ModArmorMaterials {
         EnumMap<ArmorItem.Type, Integer> enummap = new EnumMap<>(ArmorItem.Type.class);
         for (ArmorItem.Type armoritem$type : ArmorItem.Type.values())
             enummap.put(armoritem$type, p_324599_.get(armoritem$type));
-        return (Holder<ArmorMaterial>) Registry.registerForHolder(BuiltInRegistries.ARMOR_MATERIAL, ResourceLocation.withDefaultNamespace(p_323865_), new ArmorMaterial(enummap, p_324319_, p_324145_, p_323845_, p_323990_, p_323494_, p_324549_));
+        return (Holder<ArmorMaterial>)Registry.registerForHolder(BuiltInRegistries.ARMOR_MATERIAL, ResourceLocation.withDefaultNamespace(p_323865_), new ArmorMaterial(enummap, p_324319_, p_324145_, p_323845_, p_323990_, p_323494_, p_324549_));
     }
 }
