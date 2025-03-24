@@ -1,5 +1,6 @@
 package com.blocklegend001.gildedarmor;
 
+import com.blocklegend001.gildedarmor.config.ModConfig;
 import com.blocklegend001.gildedarmor.item.ModCreativeModeTab;
 import com.blocklegend001.gildedarmor.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -12,7 +13,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLPaths;
@@ -29,18 +29,11 @@ public class GildedArmor {
 
     public GildedArmor() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, com.blocklegend001.gildedarmor.config.ModConfig.SPEC, "gildedarmor/gildedarmor.toml");
-        com.blocklegend001.gildedarmor.config.ModConfig.loadConfig(com.blocklegend001.gildedarmor.config.ModConfig.SPEC, FMLPaths.CONFIGDIR.get().resolve("gildedarmor/gildedarmor.toml"));
+        ModConfig.loadConfig();
         ModCreativeModeTab.register(modEventBus);
         modEventBus.addListener(this::addCreative);
         ModItems.register(modEventBus);
-        modEventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    @SubscribeEvent
-    public void setup(final FMLCommonSetupEvent event) {
-        com.blocklegend001.gildedarmor.config.ModConfig.loadConfig(com.blocklegend001.gildedarmor.config.ModConfig.SPEC, FMLPaths.CONFIGDIR.get().resolve("gildedarmor/gildedarmor.toml"));
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

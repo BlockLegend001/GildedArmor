@@ -1,86 +1,82 @@
 package com.blocklegend001.gildedarmor.config;
 
-import com.electronwill.nightconfig.core.file.CommentedFileConfig;
-import net.minecraftforge.common.ForgeConfigSpec;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
-import java.nio.file.Path;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class ModConfig {
-    public static final ForgeConfigSpec.Builder mycfg = new ForgeConfigSpec.Builder();
+    private static final File CONFIG_FILE = new File("config/gildedarmor/gildedarmor.toml");
 
-    public static final ForgeConfigSpec.IntValue ProtectionValueGildedBoots = mycfg
-            .comment("Protection Value of Gilded Boots")
-            .defineInRange("ProtectionValueGildedBoots", 6, 0, Integer.MAX_VALUE);
+    public static float toughnessValueGildedArmor = 4.0F;
+    public static int enchantmentValueGildedArmor = 15;
+    public static float knockbackResistanceValueGildedArmor = 0.1F;
+    public static int protectionValueGildedBoots = 6;
+    public static int protectionValueGildedLeggings = 7;
+    public static int protectionValueGildedChestplate = 10;
+    public static int protectionValueGildedHelmet = 6;
 
-    public static final ForgeConfigSpec.IntValue ProtectionValueGildedLeggings = mycfg
-            .comment("Protection Value of Gilded Leggings")
-            .defineInRange("ProtectionValueGildedLeggings", 7, 0, Integer.MAX_VALUE);
+    public static int durabilityValueGildedBoots = 49;
+    public static int durabilityValueGildedLeggings = 45;
+    public static int durabilityValueGildedChestplate = 45;
+    public static int durabilityValueGildedHelmet = 45;
 
-    public static final ForgeConfigSpec.IntValue ProtectionValueGildedChestplate = mycfg
-            .comment("Protection Value of Gilded Chestplate")
-            .defineInRange("ProtectionValueGildedChestplate", 10, 0, Integer.MAX_VALUE);
+    public static void loadConfig() {
+        File configDir = new File("config/gildedarmor");
+        if (!configDir.exists()) {
+            configDir.mkdirs();
+        }
 
-    public static final ForgeConfigSpec.IntValue ProtectionValueGildedHelmet = mycfg
-            .comment("Protection Value of Gilded Helmet")
-            .defineInRange("ProtectionValueGildedHelmet", 6, 0, Integer.MAX_VALUE);
+        if (!CONFIG_FILE.exists()) {
+            saveConfig();
+        } else {
+            try (FileReader reader = new FileReader(CONFIG_FILE)) {
+                JsonObject config = JsonParser.parseReader(reader).getAsJsonObject();
 
-    public static final ForgeConfigSpec.IntValue EnchantmentValueGildedArmor = mycfg
-            .comment("Enchantment Value of Gilded Armor")
-            .defineInRange("EnchantmentValueGildedArmor", 15, 0, Integer.MAX_VALUE);
+                toughnessValueGildedArmor = config.get("toughnessValueGildedArmor").getAsFloat();
+                enchantmentValueGildedArmor = config.get("enchantmentValueGildedArmor").getAsInt();
+                knockbackResistanceValueGildedArmor = config.get("knockbackResistanceValueGildedArmor").getAsFloat();
+                protectionValueGildedBoots = config.get("protectionValueGildedBoots").getAsInt();
+                protectionValueGildedLeggings = config.get("protectionValueGildedLeggings").getAsInt();
+                protectionValueGildedChestplate = config.get("protectionValueGildedChestplate").getAsInt();
+                protectionValueGildedHelmet = config.get("protectionValueGildedHelmet").getAsInt();
 
-    public static final ForgeConfigSpec.FloatValue ToughnessValueGildedArmor = mycfg
-            .comment("Toughness Value of Gilded Armor")
-            .defineInRange("ToughnessValueGildedArmor", 4.0F, 0.0F, Float.MAX_VALUE);
+                durabilityValueGildedBoots = config.get("durabilityValueGildedBoots").getAsInt();
+                durabilityValueGildedLeggings = config.get("durabilityValueGildedLeggings").getAsInt();
+                durabilityValueGildedChestplate = config.get("durabilityValueGildedChestplate").getAsInt();
+                durabilityValueGildedHelmet = config.get("durabilityValueGildedHelmet").getAsInt();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 
-    public static final ForgeConfigSpec.FloatValue KnockbackResistanceValueGildedArmor = mycfg
-            .comment("Knockback Resistance Value of Gilded Armor")
-            .defineInRange("KnockbackResistanceValueGildedArmor", 0.1F, 0.0F, Float.MAX_VALUE);
+    public static void saveConfig() {
+        JsonObject config = new JsonObject();
 
-    public static final ForgeConfigSpec.IntValue DurabilityValueGildedBoots = mycfg
-            .comment("Durability Value of Gilded Boots")
-            .defineInRange("DurabilityValueGildedBoots", 49, 0, Integer.MAX_VALUE);
+        config.addProperty("toughnessValueGildedArmor", toughnessValueGildedArmor);
+        config.addProperty("enchantmentValueGildedArmor", enchantmentValueGildedArmor);
+        config.addProperty("knockbackResistanceValueGildedArmor", knockbackResistanceValueGildedArmor);
+        config.addProperty("protectionValueGildedBoots", protectionValueGildedBoots);
+        config.addProperty("protectionValueGildedLeggings", protectionValueGildedLeggings);
+        config.addProperty("protectionValueGildedChestplate", protectionValueGildedChestplate);
+        config.addProperty("protectionValueGildedHelmet", protectionValueGildedHelmet);
 
-    public static final ForgeConfigSpec.IntValue DurabilityValueGildedLeggings = mycfg
-            .comment("Durability Value of Gilded Leggings")
-            .defineInRange("DurabilityValueGildedLeggings", 45, 0, Integer.MAX_VALUE);
+        config.addProperty("durabilityValueGildedBoots", durabilityValueGildedBoots);
+        config.addProperty("durabilityValueGildedLeggings", durabilityValueGildedLeggings);
+        config.addProperty("durabilityValueGildedChestplate", durabilityValueGildedChestplate);
+        config.addProperty("durabilityValueGildedHelmet", durabilityValueGildedHelmet);
 
-    public static final ForgeConfigSpec.IntValue DurabilityValueGildedChestplate = mycfg
-            .comment("Durability Value of Gilded Chestplate")
-            .defineInRange("DurabilityValueGildedChestplate", 45, 0, Integer.MAX_VALUE);
-
-    public static final ForgeConfigSpec.IntValue DurabilityValueGildedHelmet = mycfg
-            .comment("Durability Value of Gilded Helmet")
-            .defineInRange("DurabilityValueGildedHelmet", 49, 0, Integer.MAX_VALUE);
-
-    public static ForgeConfigSpec SPEC = mycfg.build();
-
-    public static int protectionValueGildedBoots;
-    public static int protectionValueGildedLeggings;
-    public static int protectionValueGildedChestplate;
-    public static int protectionValueGildedHelmet;
-    public static int enchantmentValueGildedArmor;
-    public static float toughnessValueGildedArmor;
-    public static float knockbackResistanceValueGildedArmor;
-    public static int durabilityValueGildedBoots;
-    public static int durabilityValueGildedLeggings;
-    public static int durabilityValueGildedChestplate;
-    public static int durabilityValueGildedHelmet;
-
-    public static void loadConfig(ForgeConfigSpec spec, Path path) {
-        final CommentedFileConfig config = CommentedFileConfig.builder(path).sync().autoreload().build();
-        config.load();
-        spec.setConfig(config);
-
-        protectionValueGildedBoots = ProtectionValueGildedBoots.get();
-        protectionValueGildedLeggings = ProtectionValueGildedLeggings.get();
-        protectionValueGildedChestplate = ProtectionValueGildedChestplate.get();
-        protectionValueGildedHelmet = ProtectionValueGildedHelmet.get();
-        enchantmentValueGildedArmor = EnchantmentValueGildedArmor.get();
-        toughnessValueGildedArmor = ToughnessValueGildedArmor.get();
-        knockbackResistanceValueGildedArmor = KnockbackResistanceValueGildedArmor.get();
-        durabilityValueGildedBoots = DurabilityValueGildedBoots.get();
-        durabilityValueGildedLeggings = DurabilityValueGildedLeggings.get();
-        durabilityValueGildedChestplate = DurabilityValueGildedChestplate.get();
-        durabilityValueGildedHelmet = DurabilityValueGildedHelmet.get();
+        try (FileWriter writer = new FileWriter(CONFIG_FILE)) {
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            writer.write(gson.toJson(config));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
