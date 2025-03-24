@@ -1,5 +1,6 @@
 package com.blocklegend001.gildedarmor;
 
+import com.blocklegend001.gildedarmor.config.ModConfig;
 import com.blocklegend001.gildedarmor.item.ModCreativeModeTab;
 import com.blocklegend001.gildedarmor.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -25,15 +26,11 @@ public class GildedArmor {
 
     public GildedArmor(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
+        ModConfig.loadConfig();
         ModCreativeModeTab.register(modEventBus);
         modEventBus.addListener(this::addCreative);
-        modEventBus.addListener(this::commonSetup);
         ModItems.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void commonSetup(final FMLCommonSetupEvent event) {
-
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
