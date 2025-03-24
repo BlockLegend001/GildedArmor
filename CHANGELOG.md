@@ -1,1 +1,1 @@
-- Changed armor durability
+- Added config
