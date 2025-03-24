@@ -1,5 +1,6 @@
 package com.blocklegend001.gildedarmor;
 
+import com.blocklegend001.gildedarmor.config.ModConfig;
 import com.blocklegend001.gildedarmor.items.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -29,6 +30,7 @@ public class GildedArmor {
     }).build());
 
     public GildedArmor(IEventBus modEventBus) {
+        ModConfig.loadConfig();
         ModItems.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
     }
