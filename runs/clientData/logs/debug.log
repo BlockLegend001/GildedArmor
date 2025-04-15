@@ -1,0 +1,98 @@
+[12apr2025 17:30:27.407] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[12apr2025 17:30:27.409] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
+[12apr2025 17:30:27.414] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[12apr2025 17:30:27.454] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1) is taking over from null
+[12apr2025 17:30:27.493] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[12apr2025 17:30:27.494] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[12apr2025 17:30:27.496] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[12apr2025 17:30:27.497] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[12apr2025 17:30:27.498] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[12apr2025 17:30:27.499] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[12apr2025 17:30:27.511] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
+[12apr2025 17:30:27.584] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[12apr2025 17:30:27.600] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[12apr2025 17:30:27.603] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[12apr2025 17:30:27.603] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[12apr2025 17:30:27.819] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12apr2025 17:30:27.821] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[12apr2025 17:30:27.822] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[12apr2025 17:30:27.831] [main/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[12apr2025 17:30:27.838] [main/DEBUG] [mixin/]: neoforge.mixins.json:MappedRegistryAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[12apr2025 17:30:28.831] [main/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[12apr2025 17:30:28.831] [main/DEBUG] [mixin/]: neoforge.mixins.json:BlockEntityTypeAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[12apr2025 17:30:30.036] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[12apr2025 17:30:30.036] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[12apr2025 17:30:30.036] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[12apr2025 17:30:30.037] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
+[12apr2025 17:30:30.037] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[12apr2025 17:30:30.037] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[12apr2025 17:30:30.038] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[12apr2025 17:30:30.040] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[12apr2025 17:30:30.040] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[12apr2025 17:30:30.041] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\rosar\AppData\Local\Temp (java.io.tmpdir)
+[12apr2025 17:30:30.041] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[12apr2025 17:30:30.042] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[12apr2025 17:30:30.043] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[12apr2025 17:30:30.043] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[12apr2025 17:30:30.044] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[12apr2025 17:30:30.044] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[12apr2025 17:30:31.995] [main/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[12apr2025 17:30:32.017] [main/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[12apr2025 17:30:32.022] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [gildedarmor]
+[12apr2025 17:30:32.024] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[12apr2025 17:30:32.031] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.blocklegend001.gildedarmor.GildedArmor]
+[12apr2025 17:30:32.036] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.client.ClientNeoForgeMod]
+[12apr2025 17:30:32.052] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for gildedarmor
+[12apr2025 17:30:32.053] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 21.5.34-beta
+[12apr2025 17:30:32.053] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found FML version 7.0.10
+[12apr2025 17:30:32.053] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.blocklegend001.gildedarmor.datagen.DataGenerators to MOD
+[12apr2025 17:30:32.053] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.5.34-beta, for MC 1.21.5
+[12apr2025 17:30:32.066] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[12apr2025 17:30:32.067] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[12apr2025 17:30:32.108] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[12apr2025 17:30:32.128] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[12apr2025 17:30:32.128] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.filters.GenericPacketSplitter to MOD
+[12apr2025 17:30:32.145] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[12apr2025 17:30:32.146] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[12apr2025 17:30:32.146] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@a803d98
+[12apr2025 17:30:32.151] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[12apr2025 17:30:32.151] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[12apr2025 17:30:32.154] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
+[12apr2025 17:30:32.154] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
+[12apr2025 17:30:32.154] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[12apr2025 17:30:32.154] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[12apr2025 17:30:32.154] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[12apr2025 17:30:32.154] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[12apr2025 17:30:32.154] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[12apr2025 17:30:32.154] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[12apr2025 17:30:32.154] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[12apr2025 17:30:32.156] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[12apr2025 17:30:32.156] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[12apr2025 17:30:32.156] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[12apr2025 17:30:32.156] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+[12apr2025 17:30:32.162] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[12apr2025 17:30:32.163] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[12apr2025 17:30:32.163] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[12apr2025 17:30:32.168] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.NetworkInitialization to MOD
+[12apr2025 17:30:32.169] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.ConfigurationInitialization to MOD
+[12apr2025 17:30:32.171] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.model.data.ModelDataManager to GAME
+[12apr2025 17:30:32.172] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.MonsterRoomHooks to GAME
+[12apr2025 17:30:32.173] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.ParticleBoundsDebugRenderer to GAME
+[12apr2025 17:30:32.178] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.NeoForgeRenderPipelines to MOD
+[12apr2025 17:30:32.190] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer to GAME
+[12apr2025 17:30:32.191] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.attachment.AttachmentInternals to GAME
+[12apr2025 17:30:32.209] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Unfreezing registries
+[12apr2025 17:30:32.272] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Freezing registries
+[12apr2025 17:30:32.288] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: All registries frozen
+[12apr2025 17:30:32.339] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Gilded%20Armor/NEOFORGE/1.21.5/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.5.34-beta/neoforge-21.5.34-beta.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[12apr2025 17:30:32.340] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Gilded%20Armor/NEOFORGE/1.21.5/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.5.34-beta/neoforge-21.5.34-beta.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[12apr2025 17:30:32.638] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id gildedarmor
+[12apr2025 17:30:32.641] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id gildedarmor finished after 2 ms
+[12apr2025 17:30:32.642] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id gildedarmor
+[12apr2025 17:30:32.669] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id gildedarmor finished after 27 ms
+[12apr2025 17:30:32.670] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Model Definitions - gildedarmor
+[12apr2025 17:30:32.790] [main/INFO] [net.minecraft.data.DataGenerator/]: Model Definitions - gildedarmor finished after 120 ms
+[12apr2025 17:30:32.791] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Equipment Asset Definitions
+[12apr2025 17:30:32.799] [main/INFO] [net.minecraft.data.DataGenerator/]: Equipment Asset Definitions finished after 7 ms
+[12apr2025 17:30:32.799] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 161 ms
+[12apr2025 17:30:32.811] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 62, old count: 0, new count: 63, removed stale: 0, written: 62
