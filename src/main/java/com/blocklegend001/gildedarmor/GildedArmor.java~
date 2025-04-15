@@ -25,17 +25,10 @@ public class GildedArmor {
 
     public GildedArmor(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
-
         ModCreativeModeTab.register(modEventBus);
         modEventBus.addListener(this::addCreative);
-        modEventBus.addListener(this::commonSetup);
         ModItems.register(modEventBus);
-
         MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void commonSetup(final FMLCommonSetupEvent event) {
-
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
