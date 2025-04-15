@@ -1,0 +1,57 @@
+[16:09:00] [modloading-worker-0/INFO] ========================================
+[16:09:00] [modloading-worker-0/INFO] Minecraft: 1.21.1
+[16:09:00] [modloading-worker-0/INFO] Side: client
+[16:09:00] [modloading-worker-0/INFO] Development: true
+[16:09:00] [modloading-worker-0/INFO] Version: 16.0.762
+[16:09:00] [modloading-worker-0/INFO] Loader:
+[16:09:00] [modloading-worker-0/INFO] - Forge: null
+[16:09:00] [modloading-worker-0/INFO] Dependencies:
+[16:09:00] [modloading-worker-0/INFO] - Cloth Config: 15.0.130
+[16:09:00] [modloading-worker-0/INFO] - Architectury: 13.0.6
+[16:09:00] [modloading-worker-0/INFO] Mixin: 0.8.7
+[16:09:00] [modloading-worker-0/INFO] OS: Windows 11 10.0 (amd64)
+[16:09:00] [modloading-worker-0/INFO] Java: 21.0.6 (Azul Systems, Inc.)
+[16:09:00] [modloading-worker-0/INFO] ========================================
+[16:09:00] [modloading-worker-0/INFO] Mods:
+[16:09:00] [modloading-worker-0/INFO] - architectury: 13.0.6
+[16:09:00] [modloading-worker-0/INFO] - cloth_config: 15.0.130
+[16:09:00] [modloading-worker-0/INFO] - gildedarmor: 1.21.1-0.4
+[16:09:00] [modloading-worker-0/INFO] - jei: 19.17.0.192
+[16:09:00] [modloading-worker-0/INFO] - minecraft: 1.21.1
+[16:09:00] [modloading-worker-0/INFO] - neoforge: 21.1.37
+[16:09:00] [modloading-worker-0/INFO] - roughlyenoughitems: 16.0.762
+[16:09:00] [modloading-worker-0/INFO] ========================================
+[16:09:00] [modloading-worker-0/DEBUG] [REI] Added filtering rule [roughlyenoughitems:search]: INSTANCE
+[16:09:00] [modloading-worker-0/DEBUG] [REI] Added filtering rule [roughlyenoughitems:manual]: INSTANCE
+[16:09:00] [modloading-worker-0/DEBUG] [REI] Added filtering rule [roughlyenoughitems:basic]: INSTANCE
+[16:09:00] [modloading-worker-0/INFO] [REI] Config loaded
+[16:09:00] [modloading-worker-0/DEBUG] [REI] Config saved
+[16:09:00] [modloading-worker-0/DEBUG] [REI] Config saved
+[16:09:00] [modloading-worker-0/DEBUG] [REI] Config saved
+[16:09:00] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[16:09:00] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[16:09:00] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[16:09:00] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[16:09:00] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultClientPluginImpl [roughlyenoughitems] for REIClientPlugin
+[16:09:00] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultClientPluginImpl [roughlyenoughitems] for REIPlugin
+[16:09:00] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[16:09:00] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[16:09:00] [modloading-worker-0/DEBUG] [REI] Added filtering rule [roughlyenoughitems:hidden_from_recipe_viewers]: INSTANCE
+[16:09:00] [modloading-worker-0/INFO] [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[16:09:00] [modloading-worker-0/INFO] [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
+[16:41:25] [Worker-Main-6/DEBUG] [REI] Processed 0 tags in 26.30 μs for minecraft:painting_variant[16:41:25] [Worker-Main-9/DEBUG] [REI] Processed 0 tags in 4.400 μs for minecraft:worldgen/flat_level_generator_preset[16:41:25] [Worker-Main-7/DEBUG] [REI] Processed 0 tags in 7.500 μs for minecraft:worldgen/structure
+
+[16:41:25] [Worker-Main-8/DEBUG] [REI] Processed 3 tags in 1.426 ms for minecraft:instrument
+
+[16:41:25] [Worker-Main-10/DEBUG] [REI] Processed 2 tags in 883.7 μs for minecraft:cat_variant
+[16:41:25] [Worker-Main-7/DEBUG] [REI] Processed 5 tags in 26.40 μs for minecraft:fluid
+[16:41:25] [Worker-Main-9/DEBUG] [REI] Processed 0 tags in 8.300 μs for minecraft:banner_pattern
+[16:41:25] [Worker-Main-7/DEBUG] [REI] Processed 0 tags in 5.500 μs for minecraft:worldgen/world_preset
+[16:41:25] [Worker-Main-9/DEBUG] [REI] Processed 3 tags in 34.90 μs for minecraft:point_of_interest_type
+[16:41:25] [Worker-Main-7/DEBUG] [REI] Processed 5 tags in 83.40 μs for minecraft:game_event
+[16:41:25] [Worker-Main-10/DEBUG] [REI] Processed 38 tags in 138.2 μs for minecraft:entity_type
+[16:41:25] [Worker-Main-9/DEBUG] [REI] Processed 0 tags in 20.60 μs for minecraft:damage_type
+[16:41:25] [Worker-Main-10/DEBUG] [REI] Processed 0 tags in 12.50 μs for minecraft:enchantment
+[16:41:25] [Worker-Main-7/DEBUG] [REI] Processed 0 tags in 40.00 μs for minecraft:worldgen/biome
+[16:41:25] [Worker-Main-8/DEBUG] [REI] Processed 288 tags in 1.591 ms for minecraft:block
+[16:41:25] [Worker-Main-6/DEBUG] [REI] Processed 366 tags in 1.282 ms for minecraft:item

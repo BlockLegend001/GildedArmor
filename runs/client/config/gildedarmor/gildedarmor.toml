@@ -1,0 +1,13 @@
+{
+  "toughnessValueGildedArmor": 4.0,
+  "enchantmentValueGildedArmor": 15,
+  "knockbackResistanceValueGildedArmor": 0.1,
+  "protectionValueGildedBoots": 6,
+  "protectionValueGildedLeggings": 7,
+  "protectionValueGildedChestplate": 10,
+  "protectionValueGildedHelmet": 6,
+  "durabilityValueGildedBoots": 49,
+  "durabilityValueGildedLeggings": 45,
+  "durabilityValueGildedChestplate": 45,
+  "durabilityValueGildedHelmet": 45
+}
