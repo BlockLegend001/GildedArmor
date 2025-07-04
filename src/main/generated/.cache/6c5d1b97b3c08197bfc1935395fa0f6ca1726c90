@@ -1,0 +1,9 @@
+// 1.21.6	-999999999-01-01T00:00:00	Gilded Armor/Gilded Armor Recipes
+c8b17a2c5f445ff0ec32dbb700ca45ad8bf21b4a data/gildedarmor/advancement/recipes/combat/gilded_netherite_boots.json
+1812dcc8ae7160ee84e473e83c95a79f937ef05e data/gildedarmor/advancement/recipes/combat/gilded_netherite_chestplate.json
+a044c5a105f2004b6fc4de4a1de4d2208d5ce2b3 data/gildedarmor/advancement/recipes/combat/gilded_netherite_helmet.json
+018f085990ca4285971886f2f576a88139937051 data/gildedarmor/advancement/recipes/combat/gilded_netherite_leggings.json
+639c18dafa387aa23d7d16f8a29cb4a18570fdd6 data/gildedarmor/recipe/gilded_netherite_boots.json
+cca33fb9e0dfce1558facb1f613da6296bb11335 data/gildedarmor/recipe/gilded_netherite_chestplate.json
+ae9a34520be0e50a273b9bddf546d0f746898e1d data/gildedarmor/recipe/gilded_netherite_helmet.json
+f38eb9a7a5d2ca2e0ec102f30236a7d704e023a1 data/gildedarmor/recipe/gilded_netherite_leggings.json
