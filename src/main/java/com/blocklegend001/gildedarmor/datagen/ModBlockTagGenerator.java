@@ -1,0 +1,19 @@
+package com.blocklegend001.gildedarmor.datagen;
+
+import com.blocklegend001.gildedarmor.GildedArmor;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.data.PackOutput;
+import net.neoforged.neoforge.common.data.BlockTagsProvider;
+
+import java.util.concurrent.CompletableFuture;
+
+public class ModBlockTagGenerator extends BlockTagsProvider {
+    public ModBlockTagGenerator(PackOutput packOutput, CompletableFuture<HolderLookup.Provider> lookupProvider, String modid) {
+        super(packOutput, lookupProvider, GildedArmor.MODID);
+    }
+
+    @Override
+    protected void addTags(HolderLookup.Provider provider) {
+
+    }
+}
