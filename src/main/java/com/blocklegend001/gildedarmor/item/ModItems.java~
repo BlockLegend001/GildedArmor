@@ -3,7 +3,6 @@ package com.blocklegend001.gildedarmor.item;
 import com.blocklegend001.gildedarmor.GildedArmor;
 import com.blocklegend001.gildedarmor.util.ModDataComponents;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.equipment.EquipmentType;
@@ -17,26 +16,22 @@ public class ModItems {
 
     public static final Item GILDED_NETHERITE_HELMET = registerItem("gilded_netherite_helmet",
             new GildedArmorItem(ModArmorMaterial.GILDED_NETHERITE, EquipmentType.HELMET,
-                    new Item.Settings().maxCount(1).fireproof().maxDamage(EquipmentType.HELMET.getMaxDamage(100))
-                            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(GildedArmor.MOD_ID, "gilded_netherite_helmet")))
+                    new Item.Settings().maxCount(1).fireproof().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(GildedArmor.MOD_ID, "gilded_netherite_helmet")))
                             .component(ModDataComponents.GILDED_ARMOR.get(), Boolean.valueOf(true))));
 
     public static final Item GILDED_NETHERITE_CHESTPLATE = registerItem("gilded_netherite_chestplate",
             new GildedArmorItem(ModArmorMaterial.GILDED_NETHERITE, EquipmentType.CHESTPLATE,
-                    new Item.Settings().maxCount(1).fireproof().maxDamage(EquipmentType.CHESTPLATE.getMaxDamage(100))
-                            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(GildedArmor.MOD_ID, "gilded_netherite_chestplate")))
+                    new Item.Settings().maxCount(1).fireproof().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(GildedArmor.MOD_ID, "gilded_netherite_chestplate")))
                             .component(ModDataComponents.GILDED_ARMOR.get(), Boolean.valueOf(true))));
 
     public static final Item GILDED_NETHERITE_LEGGINGS = registerItem("gilded_netherite_leggings",
             new GildedArmorItem(ModArmorMaterial.GILDED_NETHERITE, EquipmentType.LEGGINGS,
-                    new Item.Settings().maxCount(1).fireproof().maxDamage(EquipmentType.LEGGINGS.getMaxDamage(100))
-                            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(GildedArmor.MOD_ID, "gilded_netherite_leggings")))
+                    new Item.Settings().maxCount(1).fireproof().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(GildedArmor.MOD_ID, "gilded_netherite_leggings")))
                             .component(ModDataComponents.GILDED_ARMOR.get(), Boolean.valueOf(true))));
 
     public static final Item GILDED_NETHERITE_BOOTS = registerItem("gilded_netherite_boots",
             new GildedArmorItem(ModArmorMaterial.GILDED_NETHERITE, EquipmentType.BOOTS,
-                    new Item.Settings().maxCount(1).fireproof().maxDamage(EquipmentType.BOOTS.getMaxDamage(100))
-                            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(GildedArmor.MOD_ID, "gilded_netherite_boots")))
+                    new Item.Settings().maxCount(1).fireproof().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(GildedArmor.MOD_ID, "gilded_netherite_boots")))
                             .component(ModDataComponents.GILDED_ARMOR.get(), Boolean.valueOf(true))));
 
     private static Item registerItem(String name, Item item) {
