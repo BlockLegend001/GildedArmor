@@ -1,0 +1,41 @@
+[06ott2025 20:18:48.693] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 139ms
+[06ott2025 20:18:48.708] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.14 (CLIENT in DEV)
+[06ott2025 20:18:48.708] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: D:\Programmazione\Mod\Gilded Armor\NEOFORGE\1.21.9\runs\clientData
+[06ott2025 20:18:48.755] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 0 early service jars (out of 0) in 6ms
+[06ott2025 20:18:48.757] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[06ott2025 20:18:48.813] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[06ott2025 20:18:48.908] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates 1.21.9%%D:\Programmazione\Mod\Gilded Armor\NEOFORGE\1.21.9\build\resources\main;1.21.9%%D:\Programmazione\Mod\Gilded Armor\NEOFORGE\1.21.9\build\classes\java\main from env
+[06ott2025 20:18:49.087] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
+[06ott2025 20:18:49.088] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[06ott2025 20:18:49.090] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		GildedArmor 1.21.9-0.1 (gildedarmor)
+		Minecraft 1.21.9 (minecraft)
+		NeoForge 21.9.14-beta (neoforge)
+[06ott2025 20:18:49.248] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar Service=FML Env=CLIENT
+[06ott2025 20:18:49.309] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[06ott2025 20:18:49.309] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - D:/Programmazione/Mod/Gilded Armor/NEOFORGE/1.21.9/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.9.14-beta/neoforge-21.9.14-beta.jar > net.neoforged.neoforge-coremods-21.9.14-beta.jar
+[06ott2025 20:18:49.605] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - gildedarmor (composite(folder(D:\Programmazione\Mod\Gilded Armor\NEOFORGE\1.21.9\build\resources\main), folder(D:\Programmazione\Mod\Gilded Armor\NEOFORGE\1.21.9\build\classes\java\main)))
+ - minecraft (composite(jar(D:\Programmazione\Mod\Gilded Armor\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21.9\client-1.21.9-client-extra.jar), filtered(jar(D:\Programmazione\Mod\Gilded Armor\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.14-beta\neoforge-21.9.14-beta.jar))))
+ - mixinextras.neoforge (jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar))
+ - neoforge (composite(filtered(jar(D:\Programmazione\Mod\Gilded Armor\NEOFORGE\1.21.9\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.9.14-beta\neoforge-21.9.14-beta.jar))))
+ - net.neoforged.fml.generated (empty(VirtualJar\net.neoforged.fml.generated))
+[06ott2025 20:18:49.635] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 137ms
+[06ott2025 20:18:50.268] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[06ott2025 20:18:55.504] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [gildedarmor]
+[06ott2025 20:18:55.548] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.9.14-beta, for MC 1.21.9
+[06ott2025 20:18:56.571] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id gildedarmor
+[06ott2025 20:18:56.576] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id gildedarmor finished after 3 ms
+[06ott2025 20:18:56.576] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id vanilla
+[06ott2025 20:18:56.595] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id vanilla finished after 18 ms
+[06ott2025 20:18:56.596] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Model Definitions - gildedarmor
+[06ott2025 20:18:56.696] [main/INFO] [net.minecraft.data.DataGenerator/]: Model Definitions - gildedarmor finished after 100 ms
+[06ott2025 20:18:56.697] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Equipment Asset Definitions
+[06ott2025 20:18:56.711] [main/INFO] [net.minecraft.data.DataGenerator/]: Equipment Asset Definitions finished after 14 ms
+[06ott2025 20:18:56.711] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 140 ms
+[06ott2025 20:18:56.729] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 62, old count: 0, new count: 63, removed stale: 0, written: 62
+[06ott2025 20:18:56.729] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 5a256db2
+[06ott2025 20:18:56.730] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
