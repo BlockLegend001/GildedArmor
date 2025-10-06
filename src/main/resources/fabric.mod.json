@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "gildedarmor",
+  "version": "${version}",
+  "name": "Gilded Armor",
+  "description": "Adds Gilded Armor, which makes piglin peaceful",
+  "authors": [
+    "Block_Legend001"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/gildedarmor/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.blocklegend001.gildedarmor.client.GildedArmorClient"
+    ],
+    "main": [
+      "com.blocklegend001.gildedarmor.GildedArmor"
+    ],
+    "fabric-datagen": [
+      "com.blocklegend001.gildedarmor.datagen.DataGenerators"
+    ]
+  },
+  "mixins": [
+    "gildedarmor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
